@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\DatasmithFacadeCSharp.Target.cs" />
+    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\DatasmithFacadeCSharp.Build.cs" />
+    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\DatasmithFacadeCSharp.i" />
+    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\ReadMe.txt" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{AE53D7B6-9E5E-4D6A-9C10-0DDE0DD2909E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Private\DatasmithFacadeCSharp.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Private\DatasmithFacadeCSharp.h">
+      <Filter>Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Private\DatasmithFacadeDLL.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <Filter Include="Public">
+      <UniqueIdentifier>{A8F45F85-3085-41E4-B63B-BAD7FF038B17}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\DatasmithFacadeCSharp.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\DatasmithFacadeCSharpPINVOKE.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeActor.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeActorCamera.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeActorLight.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeActorMesh.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeElement.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeLog.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMaterial.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeMesh.cs">
+      <Filter>Public</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\Enterprise\Datasmith\DatasmithFacadeCSharp\Public\FDatasmithFacadeScene.cs">
+      <Filter>Public</Filter>
+    </None>
+  </ItemGroup>
+</Project>
