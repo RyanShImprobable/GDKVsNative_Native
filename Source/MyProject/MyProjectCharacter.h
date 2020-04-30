@@ -168,6 +168,7 @@ public:
 	int32 Var2;
 
 	int start_time = 0;
+	int rpc_start_time = 0;
 	int gTestType = TT_REPLICATION_ROUNDTRIP;
 
 	void Interact_S2C_VarRep();
@@ -183,6 +184,12 @@ public:
 	void OnRepVar1();
 	UFUNCTION()
 	void OnRepVar2();
+
+	UFUNCTION(Server, Reliable)
+		void pingpongTestServer(int s1);
+
+	UFUNCTION(Client, Reliable)
+		void pingpongTestClient(int s1);
 
 private:
 		int	varModCount = 0;			// yunjie: only used on server side, greater than zero means enabled

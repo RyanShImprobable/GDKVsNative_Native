@@ -324,7 +324,9 @@ void AMyProjectCharacter::Tick(float DeltaTime)
 			{
 				varModCount = 0;		// yunjie: disable it
 
-				NotifyClientRoundTripDone(Var1, Var2);
+				int ball = 0;
+				rpc_start_time = FDateTime::UtcNow().GetSecond() * 1000 + FDateTime::UtcNow().GetMillisecond();
+				pingpongTestClient(ball);
 			}
 		}
 	}
@@ -412,7 +414,7 @@ void AMyProjectCharacter::OnRepVar1()
 
 void AMyProjectCharacter::OnRepVar2()
 {
-	UE_LOG(LogTemp, Error, TEXT("Ryan OnRepVar2:[%d]"), Var2);
+	//UE_LOG(LogTemp, Error, TEXT("Ryan OnRepVar2:[%d]"), Var2);
 }
 void AMyProjectCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
 {
@@ -420,4 +422,31 @@ void AMyProjectCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& 
 
 	DOREPLIFETIME(AMyProjectCharacter, Var1);
 	DOREPLIFETIME(AMyProjectCharacter, Var2);
+}
+
+void AMyProjectCharacter::pingpongTestServer_Implementation(int ball)
+{
+	if (!HasAuthority())
+		return;
+
+	ball += 1;
+	pingpongTestClient(ball);
+	UE_LOG(LogTemp, Warning, TEXT("Ayunjie_gdk_testCharacter::pingpongTestServer_Implementation ball is %d."), ball);
+
+}
+
+void AMyProjectCharacter::pingpongTestClient_Implementation(int ball)
+{
+	if (HasAuthority())
+		return;
+	if (ball == 500) {
+		int rpc_end_time = FDateTime::UtcNow().GetSecond() * 1000 + FDateTime::UtcNow().GetMillisecond();
+		UE_LOG(LogTemp, Warning, TEXT("Ayunjie_gdk_testCharacter::pingpongTestClient_Implementation ball Reached %d !!!!"), ball);
+		UE_LOG(LogTemp, Error, TEXT("Ayunjie_gdk_testCharacter::pingpongTestClient_Implementation rpc time lapse is %d !!!!"), rpc_end_time - rpc_start_time);
+	}
+	else {
+		ball += 1;
+		pingpongTestServer(ball);
+		UE_LOG(LogTemp, Warning, TEXT("Ayunjie_gdk_testCharacter::pingpongTestClient_Implementation ball is %d."), ball);
+	}
 }
