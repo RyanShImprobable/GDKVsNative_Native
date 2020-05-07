@@ -410,6 +410,13 @@ bool AMyProjectCharacter::ServerInteract_S2C_VarRep_Validate(const FString& s)
 void AMyProjectCharacter::OnRepVar1()
 {
 	UE_LOG(LogTemp, Error, TEXT("Ryan OnRepVar1:[%d]"), Var1);
+	if (Var1 == 299) {
+		UE_LOG(LogTemp, Warning, TEXT("Variable Replication is done!"));
+		int end_time = 0;
+		end_time = FDateTime::UtcNow().GetSecond() * 1000 + FDateTime::UtcNow().GetMillisecond();
+		UE_LOG(LogTemp, Warning, TEXT("Ayunjie_gdk_testCharacter::Replication Total_time:[%d]"), end_time
+			- start_time);
+	}
 }
 
 void AMyProjectCharacter::OnRepVar2()
