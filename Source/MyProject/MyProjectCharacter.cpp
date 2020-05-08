@@ -325,7 +325,6 @@ void AMyProjectCharacter::Tick(float DeltaTime)
 				varModCount = 0;		// yunjie: disable it
 
 				int ball = 0;
-				rpc_start_time = FDateTime::UtcNow().GetSecond() * 1000 + FDateTime::UtcNow().GetMillisecond();
 				pingpongTestClient(ball);
 			}
 		}
@@ -446,6 +445,11 @@ void AMyProjectCharacter::pingpongTestClient_Implementation(int ball)
 {
 	if (HasAuthority())
 		return;
+
+	if (ball == 0) {
+		rpc_start_time = FDateTime::UtcNow().GetSecond() * 1000 + FDateTime::UtcNow().GetMillisecond();
+	}
+
 	if (ball == 500) {
 		int rpc_end_time = FDateTime::UtcNow().GetSecond() * 1000 + FDateTime::UtcNow().GetMillisecond();
 		UE_LOG(LogTemp, Warning, TEXT("Ayunjie_gdk_testCharacter::pingpongTestClient_Implementation ball Reached %d !!!!"), ball);
