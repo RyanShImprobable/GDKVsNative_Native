@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealPak\UnrealPak.Target.cs" />
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealPak\UnrealPak.Build.cs" />
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealPak\UnrealPak.Target.cs" />
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealPak\UnrealPak.Build.cs" />
     <Filter Include="Private">
-      <UniqueIdentifier>{10499CE8-C33E-4F97-82C8-C5225C2075BA}</UniqueIdentifier>
+      <UniqueIdentifier>{4277DF49-414B-436B-8D0A-8F7D65485148}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealPak\Private\UnrealPak.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealPak\Private\UnrealPak.cpp">
       <Filter>Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealPak\Private\UnrealPak.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealPak\Private\UnrealPak.h">
       <Filter>Private</Filter>
     </ClInclude>
   </ItemGroup>

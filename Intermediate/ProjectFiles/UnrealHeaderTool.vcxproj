@@ -137,7 +137,6 @@
     <PlatformToolset>v142</PlatformToolset>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <TargetRuntime>Native</TargetRuntime>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <ItemGroup>
     <ProjectCapability Include="MLProject" />
@@ -630,73 +629,73 @@
     <NMakeOutput>C:\UE\UnrealEngine423\Engine\Binaries\Linux\UnrealHeaderTool-Linux-Test</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Target.cs" />
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Programs\UnrealHeaderTool\Config\DefaultEngine.ini" />
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Build.cs" />
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.cpp" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.h" />
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\ClassDeclarationMetaData.cpp" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\ClassDeclarationMetaData.h" />
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Classes.cpp" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Classes.h" />
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\ClassMaps.cpp" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\ClassMaps.h" />
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\CodeGenerator.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\FileLineException.cpp" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\FileLineException.h" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\GeneratedCodeVersion.h" />
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderParser.cpp" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderParser.h" />
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderProvider.cpp" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderProvider.h" />
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\IScriptGeneratorPluginInterface.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Manifest.cpp" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Manifest.h" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\NativeClassExporter.h" />
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\ParserClass.cpp" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\ParserClass.h" />
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\ParserHelper.cpp" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\ParserHelper.h" />
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Scope.cpp" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Scope.h" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\SimplifiedParsingClassInfo.h" />
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\StringUtils.cpp" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\StringUtils.h" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\UnderlyingEnumType.h" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderTool.h" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderToolGlobals.h" />
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderToolMain.cpp" />
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderToolStats.cpp" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderToolStats.h" />
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealSourceFile.cpp" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealSourceFile.h" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealTypeDefinitionInfo.h" />
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\CheckedMetadataSpecifiers.def" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\CheckedMetadataSpecifiers.h" />
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\FunctionSpecifiers.def" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\FunctionSpecifiers.h" />
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\InterfaceSpecifiers.def" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\InterfaceSpecifiers.h" />
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\SpecifierArrays.cpp" />
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\StructSpecifiers.def" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\StructSpecifiers.h" />
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\VariableSpecifiers.def" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\VariableSpecifiers.h" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Public\IScriptGeneratorPluginInterface.h" />
-    <Manifest Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging.manifest" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\DocumentationObjects.h" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\EnumOnlyHeader.h" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\RigVMStructHeader.h" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\StructOnlyHeader.h" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestDeprecatedObject.h" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestInterface.h" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestInterfaceObject.h" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestObject.h" />
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestObjectSerializers.h" />
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Target.cs"/>
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Programs\UnrealHeaderTool\Config\DefaultEngine.ini"/>
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.cpp"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.h"/>
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\ClassDeclarationMetaData.cpp"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\ClassDeclarationMetaData.h"/>
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Classes.cpp"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Classes.h"/>
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\ClassMaps.cpp"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\ClassMaps.h"/>
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\CodeGenerator.cpp"/>
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\FileLineException.cpp"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\FileLineException.h"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\GeneratedCodeVersion.h"/>
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderParser.cpp"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderParser.h"/>
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderProvider.cpp"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderProvider.h"/>
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\IScriptGeneratorPluginInterface.cpp"/>
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Manifest.cpp"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Manifest.h"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\NativeClassExporter.h"/>
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\ParserClass.cpp"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\ParserClass.h"/>
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\ParserHelper.cpp"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\ParserHelper.h"/>
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Scope.cpp"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Scope.h"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\SimplifiedParsingClassInfo.h"/>
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\StringUtils.cpp"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\StringUtils.h"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\UnderlyingEnumType.h"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderTool.h"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderToolGlobals.h"/>
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderToolMain.cpp"/>
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderToolStats.cpp"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderToolStats.h"/>
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealSourceFile.cpp"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealSourceFile.h"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealTypeDefinitionInfo.h"/>
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\CheckedMetadataSpecifiers.def"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\CheckedMetadataSpecifiers.h"/>
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\FunctionSpecifiers.def"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\FunctionSpecifiers.h"/>
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\InterfaceSpecifiers.def"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\InterfaceSpecifiers.h"/>
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\SpecifierArrays.cpp"/>
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\StructSpecifiers.def"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\StructSpecifiers.h"/>
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\VariableSpecifiers.def"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\VariableSpecifiers.h"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Public\IScriptGeneratorPluginInterface.h"/>
+    <Manifest Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging.manifest"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\DocumentationObjects.h"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\EnumOnlyHeader.h"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\RigVMStructHeader.h"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\StructOnlyHeader.h"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestDeprecatedObject.h"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestInterface.h"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestInterfaceObject.h"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestObject.h"/>
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestObjectSerializers.h"/>
   </ItemGroup>
   <PropertyGroup>
     <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;HACK_HEADER_GENERATOR=1;FNAME_WRITE_PROTECT_PAGES=0;USE_LOCALIZED_PACKAGE_CACHE=0;ENABLE_PGO_PROFILE=0;USE_VORBIS_FOR_STREAMING=1;USE_XMA2_FOR_STREAMING=1;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=0;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=1;WITH_APPLICATION_CORE=0;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=1;WITH_ACCESSIBILITY=0;WITH_PERFCOUNTERS=0;USE_LOGGING_IN_SHIPPING=0;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=0;WITH_EDITOR=0;WITH_SERVER_CODE=1;WITH_CEF3=1;WITH_LIVE_CODING=0;WITH_XGE_CONTROLLER=0;UBT_MODULE_MANIFEST="UnrealHeaderTool.modules";UBT_MODULE_MANIFEST_DEBUGGAME="UnrealHeaderTool-Win64-DebugGame.modules";UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;UE_APP_NAME="UnrealHeaderTool";NDIS_MINIPORT_MAJOR_VERSION=0;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;OVERRIDE_PLATFORM_HEADER_NAME=Windows;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;UE_IS_ENGINE_MODULE=0;WIN10_SDK_VERSION=18362;IMPLEMENT_ENCRYPTION_KEY_REGISTRATION()=;IMPLEMENT_SIGNING_KEY_REGISTRATION()=;DEPRECATED_FORGAME=DEPRECATED;UE_DEPRECATED_FORGAME=UE_DEPRECATED;UE_ENABLE_ICU=0;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;WITH_MALLOC_STOMP=1;CORE_VTABLE=DLLIMPORT_VTABLE;CORE_API=;TRACELOG_VTABLE=DLLIMPORT_VTABLE;TRACELOG_API=;COREUOBJECT_VTABLE=DLLIMPORT_VTABLE;COREUOBJECT_API=;JSON_VTABLE=DLLIMPORT_VTABLE;JSON_API=;LOAD_PLUGINS_FOR_TARGET_PLATFORMS=0;PROJECTS_VTABLE=DLLIMPORT_VTABLE;PROJECTS_API=;UNREALHEADERTOOL_VTABLE=DLLEXPORT_VTABLE;UNREALHEADERTOOL_API=</NMakePreprocessorDefinitions>
-    <NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\UE\UnrealEngine423\Engine\Source;C:\UE\UnrealEngine423\Engine\Source\Runtime\Launch\Private;C:\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private;C:\UE\UnrealEngine423\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\Core;C:\UE\UnrealEngine423\Engine\Source\Runtime;C:\UE\UnrealEngine423\Engine\Source\Runtime\TraceLog\Public;C:\UE\UnrealEngine423\Engine\Source\Runtime\Core\Public;C:\UE\UnrealEngine423\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\TraceLog;C:\UE\UnrealEngine423\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\CoreUObject;C:\UE\UnrealEngine423\Engine\Source\Runtime\CoreUObject\Public;C:\UE\UnrealEngine423\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\Json;C:\UE\UnrealEngine423\Engine\Source\Runtime\Json\Public;C:\UE\UnrealEngine423\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\Projects;C:\UE\UnrealEngine423\Engine\Source\Runtime\Projects\Public;C:\UE\UnrealEngine423\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\UnrealHeaderTool;C:\UE\UnrealEngine423\Engine\Source\Programs;C:\UE\UnrealEngine423\Engine\Source\Runtime\Launch\Public;C:\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Public;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt;;</NMakeIncludeSearchPath>
+    <NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\UE\UnrealEngine423\Engine\Source;C:\UE\UnrealEngine423\Engine\Source\Runtime\Launch\Private;C:\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Private;C:\UE\UnrealEngine423\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\Core;C:\UE\UnrealEngine423\Engine\Source\Runtime;C:\UE\UnrealEngine423\Engine\Source\Runtime\TraceLog\Public;C:\UE\UnrealEngine423\Engine\Source\Runtime\Core\Public;C:\UE\UnrealEngine423\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\TraceLog;C:\UE\UnrealEngine423\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\CoreUObject;C:\UE\UnrealEngine423\Engine\Source\Runtime\CoreUObject\Public;C:\UE\UnrealEngine423\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\Json;C:\UE\UnrealEngine423\Engine\Source\Runtime\Json\Public;C:\UE\UnrealEngine423\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\Projects;C:\UE\UnrealEngine423\Engine\Source\Runtime\Projects\Public;C:\UE\UnrealEngine423\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Inc\UnrealHeaderTool;C:\UE\UnrealEngine423\Engine\Source\Programs;C:\UE\UnrealEngine423\Engine\Source\Runtime\Launch\Public;C:\UE\UnrealEngine423\Engine\Source\Programs\UnrealHeaderTool\Public;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt;;</NMakeIncludeSearchPath>
     <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
   </PropertyGroup>

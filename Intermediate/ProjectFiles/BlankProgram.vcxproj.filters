@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BlankProgram\BlankProgram.Target.cs" />
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BlankProgram\BlankProgram.Build.cs" />
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BlankProgram\BlankProgram.Target.cs" />
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BlankProgram\BlankProgram.Build.cs" />
     <Filter Include="Private">
-      <UniqueIdentifier>{E74EB4B1-2256-47BC-95A9-6D180D601891}</UniqueIdentifier>
+      <UniqueIdentifier>{891DE8A3-3733-46DC-B1E4-DF5EC4E83A5A}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BlankProgram\Private\BlankProgram.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BlankProgram\Private\BlankProgram.cpp">
       <Filter>Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BlankProgram\Private\BlankProgram.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BlankProgram\Private\BlankProgram.h">
       <Filter>Private</Filter>
     </ClInclude>
     <Filter Include="Resources">
-      <UniqueIdentifier>{33DD4D95-FD62-4643-83B2-4827CEF81A8B}</UniqueIdentifier>
+      <UniqueIdentifier>{E6B21033-A8DB-4A57-A310-33297F6E93A3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resources\Windows">
-      <UniqueIdentifier>{8B187D8D-3752-43A0-8D49-5AAFBE9AA3A2}</UniqueIdentifier>
+      <UniqueIdentifier>{0158B91C-B14D-42B8-AAE3-BD3332DC91B7}</UniqueIdentifier>
     </Filter>
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BlankProgram\Resources\Windows\BlankProgram.ico">
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BlankProgram\Resources\Windows\BlankProgram.ico">
       <Filter>Resources\Windows</Filter>
     </None>
   </ItemGroup>

@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealInsightsCLI\UnrealInsightsCLI.Target.cs" />
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealInsightsCLI\UnrealInsightsCLI.Build.cs" />
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealInsightsCLI\UnrealInsightsCLI.Target.cs" />
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealInsightsCLI\UnrealInsightsCLI.Build.cs" />
     <Filter Include="Private">
-      <UniqueIdentifier>{E1EBBFFA-186F-47E2-9BEA-C0100B802622}</UniqueIdentifier>
+      <UniqueIdentifier>{EC7582DB-54AA-4BAF-8908-D5BC37402EFD}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealInsightsCLI\Private\UnrealInsightsCLI.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealInsightsCLI\Private\UnrealInsightsCLI.cpp">
       <Filter>Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealInsightsCLI\Private\UnrealInsightsCLI.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealInsightsCLI\Private\UnrealInsightsCLI.h">
       <Filter>Private</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,93 +1,93 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Target.cs" />
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Target.cs" />
     <Filter Include="Config">
-      <UniqueIdentifier>{844A7504-3249-41EC-981C-D8D2F853DB7C}</UniqueIdentifier>
+      <UniqueIdentifier>{EC7915CE-4FA8-40F7-8107-AB109F9589A7}</UniqueIdentifier>
     </Filter>
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Programs\UnrealFrontend\Config\DefaultEngine.ini">
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Programs\UnrealFrontend\Config\DefaultEngine.ini">
       <Filter>Config</Filter>
     </None>
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Build.cs" />
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Build.cs" />
     <Filter Include="Private">
-      <UniqueIdentifier>{2092F96C-CD86-4926-A50E-F1FF3944CA67}</UniqueIdentifier>
+      <UniqueIdentifier>{F112835B-4645-400E-AD6F-EEF223B52FED}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.cpp">
       <Filter>Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.h">
       <Filter>Private</Filter>
     </ClInclude>
     <Filter Include="Private\Commands">
-      <UniqueIdentifier>{7986F344-FB9E-46A7-8BA6-7B712CC95114}</UniqueIdentifier>
+      <UniqueIdentifier>{0B1B1D7F-9E0C-4601-8CFA-6E575C2611A8}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\DeployCommand.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\DeployCommand.cpp">
       <Filter>Private\Commands</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\DeployCommand.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\DeployCommand.h">
       <Filter>Private\Commands</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchCommand.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchCommand.cpp">
       <Filter>Private\Commands</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchCommand.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchCommand.h">
       <Filter>Private\Commands</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchFromProfileCommand.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchFromProfileCommand.cpp">
       <Filter>Private\Commands</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchFromProfileCommand.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchFromProfileCommand.h">
       <Filter>Private\Commands</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\PackageCommand.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\PackageCommand.cpp">
       <Filter>Private\Commands</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\PackageCommand.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\PackageCommand.h">
       <Filter>Private\Commands</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsConvertCommand.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsConvertCommand.cpp">
       <Filter>Private\Commands</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsConvertCommand.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsConvertCommand.h">
       <Filter>Private\Commands</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsDumpMemoryCommand.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsDumpMemoryCommand.cpp">
       <Filter>Private\Commands</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsDumpMemoryCommand.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsDumpMemoryCommand.h">
       <Filter>Private\Commands</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\UserInterfaceCommand.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\UserInterfaceCommand.cpp">
       <Filter>Private\Commands</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\UserInterfaceCommand.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Commands\UserInterfaceCommand.h">
       <Filter>Private\Commands</Filter>
     </ClInclude>
     <Filter Include="Private\Linux">
-      <UniqueIdentifier>{66D567DD-9B82-45EF-8101-4CB2D71BDE28}</UniqueIdentifier>
+      <UniqueIdentifier>{C2941FA3-4BC1-4CF4-BB97-EFB679BE1ABC}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Linux\LinuxUnrealFrontendMain.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Linux\LinuxUnrealFrontendMain.cpp">
       <Filter>Private\Linux</Filter>
     </ClCompile>
     <Filter Include="Private\Mac">
-      <UniqueIdentifier>{14BF9375-B637-45CA-AF00-2867BF8463C9}</UniqueIdentifier>
+      <UniqueIdentifier>{D1ACFC6D-89D8-4D47-80B2-9BFE14CD2498}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Mac\MacUnrealFrontendMain.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Mac\MacUnrealFrontendMain.cpp">
       <Filter>Private\Mac</Filter>
     </ClCompile>
     <Filter Include="Private\Windows">
-      <UniqueIdentifier>{42DD7825-9DA9-4D67-9A34-FA242F3CA70D}</UniqueIdentifier>
+      <UniqueIdentifier>{BE64E125-5D61-4C28-8342-B8136A84D90C}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Windows\WindowsUnrealFrontendMain.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Private\Windows\WindowsUnrealFrontendMain.cpp">
       <Filter>Private\Windows</Filter>
     </ClCompile>
     <Filter Include="Resources">
-      <UniqueIdentifier>{1E8C100F-DA8E-4904-91ED-22E471AF38AA}</UniqueIdentifier>
+      <UniqueIdentifier>{065A253C-75BC-4710-8137-1699F22F3986}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resources\Mac">
-      <UniqueIdentifier>{CB0F0BF8-4313-4CF6-BA60-C89547F17A4B}</UniqueIdentifier>
+      <UniqueIdentifier>{292DA71E-7670-4D13-B34F-C4EB81D5E27F}</UniqueIdentifier>
     </Filter>
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Resources\Mac\Info.plist">
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\UnrealFrontend\Resources\Mac\Info.plist">
       <Filter>Resources\Mac</Filter>
     </None>
   </ItemGroup>

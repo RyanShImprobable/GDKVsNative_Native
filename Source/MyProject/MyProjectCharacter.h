@@ -167,8 +167,8 @@ public:
 	UPROPERTY(ReplicatedUsing = OnRepVar2)
 	int32 Var2;
 
-	int start_time = 0;
-	int rpc_start_time = 0;
+	int64 start_time = 0;
+	int64 rpc_start_time = 0;
 	int gTestType = TT_REPLICATION_ROUNDTRIP;
 
 	void Interact_S2C_VarRep();

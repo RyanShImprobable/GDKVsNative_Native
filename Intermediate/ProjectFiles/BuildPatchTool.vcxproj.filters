@@ -1,94 +1,94 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Target.cs" />
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Target.cs" />
     <Filter Include="Config">
-      <UniqueIdentifier>{D2648D70-5310-46FA-8C0A-FD9A85D7D584}</UniqueIdentifier>
+      <UniqueIdentifier>{4B42721E-A64D-4409-845D-FA6321B46D1B}</UniqueIdentifier>
     </Filter>
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Programs\BuildPatchTool\Config\DefaultEngine.ini">
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Programs\BuildPatchTool\Config\DefaultEngine.ini">
       <Filter>Config</Filter>
     </None>
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Automation.cs" />
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Build.cs" />
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Automation.cs" />
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Build.cs" />
     <Filter Include="Private">
-      <UniqueIdentifier>{C94EEFE7-D4C4-4027-A000-D1CB01E7D41B}</UniqueIdentifier>
+      <UniqueIdentifier>{66D8A3C5-B4AF-425F-8EAA-E28B091A00A2}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\BuildPatchTool.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\BuildPatchTool.cpp">
       <Filter>Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\ToolMode.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\ToolMode.cpp">
       <Filter>Private</Filter>
     </ClCompile>
     <Filter Include="Private\ToolModes">
-      <UniqueIdentifier>{8C2F36B3-4F6B-4898-9ABC-34C25E032BB5}</UniqueIdentifier>
+      <UniqueIdentifier>{71DA00AC-7070-455C-B535-D40D19452E76}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\AutomationMode.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\AutomationMode.cpp">
       <Filter>Private\ToolModes</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\ChunkDeltaOptimiseMode.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\ChunkDeltaOptimiseMode.cpp">
       <Filter>Private\ToolModes</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\CompactifyMode.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\CompactifyMode.cpp">
       <Filter>Private\ToolModes</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\DiffManifestMode.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\DiffManifestMode.cpp">
       <Filter>Private\ToolModes</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\EnumerationMode.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\EnumerationMode.cpp">
       <Filter>Private\ToolModes</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\MergeManifestMode.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\MergeManifestMode.cpp">
       <Filter>Private\ToolModes</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PackageChunksMode.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PackageChunksMode.cpp">
       <Filter>Private\ToolModes</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PatchGenerationMode.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PatchGenerationMode.cpp">
       <Filter>Private\ToolModes</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\VerifyChunksMode.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\VerifyChunksMode.cpp">
       <Filter>Private\ToolModes</Filter>
     </ClCompile>
     <Filter Include="Public">
-      <UniqueIdentifier>{1F89E297-8A50-4265-9A2E-6488A22AA145}</UniqueIdentifier>
+      <UniqueIdentifier>{E0D8200B-9A24-498D-A0FB-97838B88C00D}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\BuildPatchTool.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\BuildPatchTool.h">
       <Filter>Public</Filter>
     </ClInclude>
     <Filter Include="Public\Interfaces">
-      <UniqueIdentifier>{646EA766-C9BB-40B0-A2B6-A9F893E9511C}</UniqueIdentifier>
+      <UniqueIdentifier>{88765F2B-3170-4F76-B7FF-AB01986D754B}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\Interfaces\ToolMode.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\Interfaces\ToolMode.h">
       <Filter>Public\Interfaces</Filter>
     </ClInclude>
     <Filter Include="Public\ToolModes">
-      <UniqueIdentifier>{A416F904-80AA-4F23-8048-35E432A81E10}</UniqueIdentifier>
+      <UniqueIdentifier>{56D1E79E-2607-4C31-818B-B0A79BEB645B}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\AutomationMode.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\AutomationMode.h">
       <Filter>Public\ToolModes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\ChunkDeltaOptimiseMode.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\ChunkDeltaOptimiseMode.h">
       <Filter>Public\ToolModes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\CompactifyMode.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\CompactifyMode.h">
       <Filter>Public\ToolModes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\DiffManifestMode.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\DiffManifestMode.h">
       <Filter>Public\ToolModes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\EnumerationMode.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\EnumerationMode.h">
       <Filter>Public\ToolModes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\MergeManifestMode.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\MergeManifestMode.h">
       <Filter>Public\ToolModes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PackageChunksMode.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PackageChunksMode.h">
       <Filter>Public\ToolModes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PatchGenerationMode.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PatchGenerationMode.h">
       <Filter>Public\ToolModes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\VerifyChunksMode.h">
+    <ClInclude Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\VerifyChunksMode.h">
       <Filter>Public\ToolModes</Filter>
     </ClInclude>
   </ItemGroup>

@@ -320,7 +320,7 @@ void AMyProjectCharacter::Tick(float DeltaTime)
 				Var2 += 1;
 			}
 
-			if (varModCount >= (30 * 10))
+			if (varModCount >= (100 * 10))
 			{
 				varModCount = 0;		// yunjie: disable it
 
@@ -336,7 +336,6 @@ void AMyProjectCharacter::Execute()
 {
 	if (gTestType == TT_REPLICATION_ROUNDTRIP)
 	{
-		start_time = FDateTime::UtcNow().GetSecond() * 1000 + FDateTime::UtcNow().GetMillisecond();
 		Interact_S2C_VarRep();
 	}
 }
@@ -356,14 +355,6 @@ void AMyProjectCharacter::NotifyClientRoundTripDone_Implementation(const int& va
 {
 	if (HasAuthority())
 		return;
-	UE_LOG(LogTemp, Warning, TEXT("RyanIsComing!!!!!!!!!!!!!!!!!!!!!!"));
-	UE_LOG(LogTemp, Warning, TEXT("NotifyClientRoundTripDone_Implementation Var1 From server:[%d], Var2 From server:[%d]"), var1_server, var2_server);
-	UE_LOG(LogTemp, Warning, TEXT("NotifyClientRoundTripDone_Implementation Var1 CLient:[%d], Var2 Client:[%d]"), Var1, Var2);
-	int end_time = 0;
-	end_time = FDateTime::UtcNow().GetSecond() * 1000 + FDateTime::UtcNow().GetMillisecond();
-	UE_LOG(LogTemp, Warning, TEXT("Start time is [%d], End time is [%d]"), start_time, end_time);
-	UE_LOG(LogTemp, Warning, TEXT("AMyCharacter::NotifyClientRoundTripDone_Implementation Total_time:[%d]"), end_time
-		- start_time);
 }
 
 bool AMyProjectCharacter::ServerInitializing_TT_REPLICATION_ROUNDTRIP_Env_Validate(const FServerInitData& data)
@@ -408,11 +399,19 @@ bool AMyProjectCharacter::ServerInteract_S2C_VarRep_Validate(const FString& s)
 
 void AMyProjectCharacter::OnRepVar1()
 {
-	UE_LOG(LogTemp, Error, TEXT("Ryan OnRepVar1:[%d]"), Var1);
-	if (Var1 == 299) {
+	//UE_LOG(LogTemp, Warning, TEXT("Ryan OnRepVar1:[%d]"), Var1);
+	
+	if (start_time == 0)
+	{
+		start_time = FDateTime::UtcNow().ToUnixTimestamp() * 1000 + FDateTime::UtcNow().GetMillisecond();
+		UE_LOG(LogTemp, Warning, TEXT("initialize start_time =  %d !!!!"), start_time);
+	}
+	if (Var1 == 999) {
 		UE_LOG(LogTemp, Warning, TEXT("Variable Replication is done!"));
-		int end_time = 0;
-		end_time = FDateTime::UtcNow().GetSecond() * 1000 + FDateTime::UtcNow().GetMillisecond();
+		int64 end_time = FDateTime::UtcNow().ToUnixTimestamp() * 1000 + FDateTime::UtcNow().GetMillisecond();
+
+		UE_LOG(LogTemp, Warning, TEXT("start_time =  %d !!!!"), start_time);
+		UE_LOG(LogTemp, Warning, TEXT("end_time =  %d !!!!"), end_time);
 		UE_LOG(LogTemp, Warning, TEXT("Ayunjie_gdk_testCharacter::Replication Total_time:[%d]"), end_time
 			- start_time);
 	}
@@ -437,7 +436,7 @@ void AMyProjectCharacter::pingpongTestServer_Implementation(int ball)
 
 	ball += 1;
 	pingpongTestClient(ball);
-	UE_LOG(LogTemp, Warning, TEXT("Ayunjie_gdk_testCharacter::pingpongTestServer_Implementation ball is %d."), ball);
+	//UE_LOG(LogTemp, Warning, TEXT("Ayunjie_gdk_testCharacter::pingpongTestServer_Implementation ball is %d."), ball);
 
 }
 
@@ -446,18 +445,21 @@ void AMyProjectCharacter::pingpongTestClient_Implementation(int ball)
 	if (HasAuthority())
 		return;
 
-	if (ball == 0) {
-		rpc_start_time = FDateTime::UtcNow().GetSecond() * 1000 + FDateTime::UtcNow().GetMillisecond();
+	if (ball == 0) {		
+		rpc_start_time = FDateTime::UtcNow().ToUnixTimestamp() * 1000 + FDateTime::UtcNow().GetMillisecond();
+		UE_LOG(LogTemp, Error, TEXT("initialize rpc_start_time =  %d !!!!"), rpc_start_time);
 	}
 
-	if (ball == 500) {
-		int rpc_end_time = FDateTime::UtcNow().GetSecond() * 1000 + FDateTime::UtcNow().GetMillisecond();
-		UE_LOG(LogTemp, Warning, TEXT("Ayunjie_gdk_testCharacter::pingpongTestClient_Implementation ball Reached %d !!!!"), ball);
+	if (ball == 1000) {
+		int64 rpc_end_time = FDateTime::UtcNow().ToUnixTimestamp() * 1000 + FDateTime::UtcNow().GetMillisecond();
+		UE_LOG(LogTemp, Error, TEXT("Ayunjie_gdk_testCharacter::pingpongTestClient_Implementation ball Reached %d !!!!"), ball);
+		UE_LOG(LogTemp, Error, TEXT("rpc_start_time =  %d !!!!"), rpc_start_time);
+		UE_LOG(LogTemp, Error, TEXT("rpc_end_time =  %d !!!!"), rpc_end_time);
 		UE_LOG(LogTemp, Error, TEXT("Ayunjie_gdk_testCharacter::pingpongTestClient_Implementation rpc time lapse is %d !!!!"), rpc_end_time - rpc_start_time);
 	}
 	else {
 		ball += 1;
 		pingpongTestServer(ball);
-		UE_LOG(LogTemp, Warning, TEXT("Ayunjie_gdk_testCharacter::pingpongTestClient_Implementation ball is %d."), ball);
+		//UE_LOG(LogTemp, Warning, TEXT("Ayunjie_gdk_testCharacter::pingpongTestClient_Implementation ball is %d."), ball);
 	}
 }

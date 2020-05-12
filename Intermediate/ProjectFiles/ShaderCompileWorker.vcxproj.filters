@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Target.cs" />
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Target.cs" />
     <Filter Include="Config">
-      <UniqueIdentifier>{EFC9CE2C-CB3F-408D-AE46-D9A1DBEA48D5}</UniqueIdentifier>
+      <UniqueIdentifier>{78AC6F2D-DADE-469F-ADAE-4E01366F0D29}</UniqueIdentifier>
     </Filter>
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Programs\ShaderCompileWorker\Config\DefaultEngine.ini">
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Programs\ShaderCompileWorker\Config\DefaultEngine.ini">
       <Filter>Config</Filter>
     </None>
     <Filter Include="Config\Mac">
-      <UniqueIdentifier>{6436CD96-9A5F-4624-82AA-75BE4FBCF14A}</UniqueIdentifier>
+      <UniqueIdentifier>{9A25FE67-5003-4540-AE73-9494D41EFDFE}</UniqueIdentifier>
     </Filter>
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Programs\ShaderCompileWorker\Config\Mac\MacEngine.ini">
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Programs\ShaderCompileWorker\Config\Mac\MacEngine.ini">
       <Filter>Config\Mac</Filter>
     </None>
-    <None Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Build.cs" />
+    <None Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Build.cs" />
     <Filter Include="Private">
-      <UniqueIdentifier>{DAC6F9F8-6829-4834-928B-480DC0A3C3D4}</UniqueIdentifier>
+      <UniqueIdentifier>{4E8F449D-FC3A-4C47-94D5-18B5CEDB3DA5}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\ShaderCompileWorker\Private\ShaderCompileWorker.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\ShaderCompileWorker\Private\ShaderCompileWorker.cpp">
       <Filter>Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\ShaderCompileWorker\Private\XGEControlWorker.cpp">
+    <ClCompile Include="..\..\..\..\UE\UnrealEngine423\Engine\Source\Programs\ShaderCompileWorker\Private\XGEControlWorker.cpp">
       <Filter>Private</Filter>
     </ClCompile>
   </ItemGroup>
