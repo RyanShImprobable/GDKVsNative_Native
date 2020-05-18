@@ -326,8 +326,12 @@ void AMyProjectCharacter::Tick(float DeltaTime)
 
 				int ball = 0;
 				pingpongTestClient(ball);
+				UE_LOG(LogTemp, Warning, TEXT("Server Ticktime =  %f !!!!"), DeltaTime);
 			}
 		}
+	}
+	else {
+		UE_LOG(LogTemp, Warning, TEXT("Client Ticktime = %f !!!!"), DeltaTime);
 	}
 
 }
